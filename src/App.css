@@ -1,0 +1,50 @@
+html, body {
+  height: 100%; /* Assicurati che l'intera pagina abbia altezza al 100% */
+  margin: 0; /* Rimuovi il margine predefinito del corpo */
+  display: flex; /* Abilita il display flex su html e body */
+  justify-content: center; /* Centra orizzontalmente html e body */
+  align-items: center; /* Centra verticalmente html e body */
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centra orizzontalmente */
+  flex-direction: column;
+  align-items: center; /* Centra verticalmente */
+  margin-top: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
